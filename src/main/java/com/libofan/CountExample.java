@@ -1,6 +1,5 @@
 package com.libofan;
 
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +8,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 
-@Slf4j
 public class CountExample {
 
     private static int threadTotal = 1;
